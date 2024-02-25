@@ -1,0 +1,3 @@
+modelpara/*.params
+data/*
+data/CIFAR10/*

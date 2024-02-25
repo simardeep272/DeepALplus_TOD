@@ -1,0 +1,16 @@
+dataset: CIFAR10
+AL strategy: COD
+number of labeled pool: 1000
+number of unlabeled pool: 49000
+number of testing pool: 10000
+batch size: 128
+quota: 896
+time of repeat experiments: 3
+Size of training set is 1000, accuracy is 0.4631.
+Size of training set is 1128, accuracy is 0.4921.
+Size of training set is 1256, accuracy is 0.4809.
+Size of training set is 1384, accuracy is 0.5336.
+Size of training set is 1512, accuracy is 0.5483.
+Size of training set is 1640, accuracy is 0.5504.
+Size of training set is 1768, accuracy is 0.5657.
+Size of training set is 1896, accuracy is 0.5589.

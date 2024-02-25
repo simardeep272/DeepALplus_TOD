@@ -1,0 +1,119 @@
+Files already downloaded and verified
+Files already downloaded and verified
+CIFAR10
+RANDOM SEED 4666
+CyclicOutputDependecy
+Round 0
+testing accuracy 0.5835
+
+
+Round 1
+(47500,)
+testing accuracy 0.6243
+
+
+Round 2
+(46559,)
+testing accuracy 0.6138
+
+
+Round 3
+(45647,)
+testing accuracy 0.7012
+
+
+Round 4
+(44729,)
+testing accuracy 0.7094
+
+
+Round 5
+(43834,)
+testing accuracy 0.7131
+
+
+Round 6
+(42940,)
+testing accuracy 0.7347
+
+
+Round 7
+(42100,)
+testing accuracy 0.7484
+
+
+Round 8
+(41290,)
+testing accuracy 0.7607
+
+
+Round 9
+(40483,)
+testing accuracy 0.7618
+
+
+Round 10
+(39729,)
+testing accuracy 0.7493
+
+
+SEED 4666
+CyclicOutputDependecy
+[0.5835 0.6243 0.6138 0.7012 0.7094 0.7131 0.7347 0.7484 0.7607 0.7618
+ 0.7493]
+Files already downloaded and verified
+Files already downloaded and verified
+CIFAR10
+RANDOM SEED 4666
+CyclicOutputDependecy
+Round 0
+testing accuracy 0.6131
+
+
+Round 1
+(47500,)
+testing accuracy 0.6395
+
+
+Round 2
+(46549,)
+testing accuracy 0.6777
+
+
+Round 3
+(45614,)
+testing accuracy 0.6805
+
+
+Round 4
+(44711,)
+testing accuracy 0.6977
+
+
+Round 5
+(43826,)
+testing accuracy 0.6912
+
+
+Round 6
+(42950,)
+testing accuracy 0.7404
+
+
+Round 7
+(42091,)
+testing accuracy 0.7554
+
+
+Round 8
+(41254,)
+testing accuracy 0.7476
+
+
+Round 9
+(40448,)
+testing accuracy 0.7634
+
+
+Round 10
+(39631,)

@@ -1,0 +1,489 @@
+Downloading https://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz to ./data/CIFAR10/cifar-10-python.tar.gz
+Extracting ./data/CIFAR10/cifar-10-python.tar.gz to ./data/CIFAR10
+Files already downloaded and verified
+<query_strategies.cyclic_output_dependency.CyclicOutputDependecy object at 0x7fb858904580>
+Files already downloaded and verified
+Files already downloaded and verified
+<query_strategies.cyclic_output_dependency.CyclicOutputDependecy object at 0x7faca8b18ca0>
+Files already downloaded and verified
+Files already downloaded and verified
+<query_strategies.cyclic_output_dependency.CyclicOutputDependecy object at 0x7f1daab21ca0>
+Files already downloaded and verified
+Files already downloaded and verified
+{'n_epoch': 30, 'name': 'CIFAR10', 'transform_train': Compose(
+    RandomCrop(size=(32, 32), padding=4)
+    RandomHorizontalFlip(p=0.5)
+    ToTensor()
+    Normalize(mean=(0.4914, 0.4822, 0.4465), std=(0.247, 0.2435, 0.2616))
+), 'transform': Compose(
+    ToTensor()
+    Normalize(mean=(0.4914, 0.4822, 0.4465), std=(0.247, 0.2435, 0.2616))
+), 'loader_tr_args': {'batch_size': 128, 'num_workers': 4}, 'loader_te_args': {'batch_size': 1000, 'num_workers': 4}, 'num_class': 10, 'pretrained': False, 'optimizer': 'Adam', 'optimizer_args': {'lr': 0.001}}
+Files already downloaded and verified
+Files already downloaded and verified
+{'n_epoch': 30, 'name': 'CIFAR10', 'transform_train': Compose(
+    RandomCrop(size=(32, 32), padding=4)
+    RandomHorizontalFlip(p=0.5)
+    ToTensor()
+    Normalize(mean=(0.4914, 0.4822, 0.4465), std=(0.247, 0.2435, 0.2616))
+), 'transform': Compose(
+    ToTensor()
+    Normalize(mean=(0.4914, 0.4822, 0.4465), std=(0.247, 0.2435, 0.2616))
+), 'loader_tr_args': {'batch_size': 128, 'num_workers': 4}, 'loader_te_args': {'batch_size': 1000, 'num_workers': 4}, 'num_class': 10, 'pretrained': False, 'optimizer': 'Adam', 'optimizer_args': {'lr': 0.001}}
+Files already downloaded and verified
+Files already downloaded and verified
+CIFAR10
+RANDOM SEED 4666
+CyclicOutputDependecy
+Files already downloaded and verified
+Files already downloaded and verified
+CIFAR10
+RANDOM SEED 4666
+CyclicOutputDependecy
+Namespace(ALstrategy='COD', adversary_param=1, batch=128, beta=1, cuda=False, data_path='./../data', dataset_name='CIFAR10', delta=5e-05, gpu=0, initseed=1000, iteration=3, latent_dim=32, log_name='test.log', lpl_epoches=20, num_adv_steps=1, num_vae_steps=2, out_path='./../results', quota=1000, seed=4666, train_epochs=100)
+Files already downloaded and verified
+Files already downloaded and verified
+CIFAR10
+RANDOM SEED 4666
+CyclicOutputDependecy
+Namespace(ALstrategy='COD', adversary_param=1, batch=128, beta=1, cuda=False, data_path='./../data', dataset_name='CIFAR10', delta=5e-05, gpu=0, initseed=1000, iteration=3, latent_dim=32, log_name='test.log', lpl_epoches=20, num_adv_steps=1, num_vae_steps=2, out_path='./../results', quota=1000, seed=4666, train_epochs=100)
+Files already downloaded and verified
+Files already downloaded and verified
+CIFAR10
+RANDOM SEED 4666
+CyclicOutputDependecy
+None None
+Files already downloaded and verified
+Files already downloaded and verified
+CIFAR10
+RANDOM SEED 4666
+CyclicOutputDependecy
+<nets.Net object at 0x7ff591177a30>
+Files already downloaded and verified
+Files already downloaded and verified
+CIFAR10
+RANDOM SEED 4666
+CyclicOutputDependecy
+Round 0
+testing accuracy 0.4885
+
+
+Round 1
+Files already downloaded and verified
+Files already downloaded and verified
+<nets_tod.Net_tod object at 0x7fd18df7f8b0>
+Files already downloaded and verified
+Files already downloaded and verified
+CIFAR10
+RANDOM SEED 4666
+CyclicOutputDependecy
+-----------train
+Files already downloaded and verified
+Files already downloaded and verified
+CIFAR10
+RANDOM SEED 4666
+CyclicOutputDependecy
+Round 0
+testing accuracy 0.4625
+
+
+Round 1
+Files already downloaded and verified
+Files already downloaded and verified
+CIFAR10
+RANDOM SEED 4666
+CyclicOutputDependecy
+Files already downloaded and verified
+Files already downloaded and verified
+CIFAR10
+RANDOM SEED 4666
+CyclicOutputDependecy
+Files already downloaded and verified
+Files already downloaded and verified
+CIFAR10
+RANDOM SEED 4666
+CyclicOutputDependecy
+Files already downloaded and verified
+Files already downloaded and verified
+CIFAR10
+RANDOM SEED 4666
+CyclicOutputDependecy
+Round 0
+testing accuracy 0.4588
+
+
+Round 1
+128
+torch.Size([49000])
+Files already downloaded and verified
+Files already downloaded and verified
+CIFAR10
+RANDOM SEED 4666
+CyclicOutputDependecy
+Round 0
+testing accuracy 0.4854
+
+
+Round 1
+Files already downloaded and verified
+Files already downloaded and verified
+CIFAR10
+RANDOM SEED 4666
+CyclicOutputDependecy
+Round 0
+testing accuracy 0.4611
+
+
+Round 1
+(49000,)
+tensor([36428,  4293,   199, 21856, 28678, 32514, 18125, 33547, 14366, 20394,
+        16851,  5269,  7992, 13426, 16329, 43080, 32479,  8352,  3336, 15467,
+        48780, 10980,  4821,  7449, 26008, 21583, 19131,  3439,  2564,  7770,
+        26652, 25748, 30771,  7160, 15394, 14446, 27874,  6442, 47243, 45424,
+        34656, 20437, 43680, 31879, 42374, 19138, 34511, 34664, 21059,  1299,
+        16059, 35035, 46478, 17742, 46523, 14530, 42770,  9589, 38166, 41429,
+        26599,  3771, 14789, 48511, 13532, 20214,  6616, 14638, 13348,  7016,
+         3376, 40161,  8428, 46629, 45316,  6704, 18001, 31177, 44263, 46985,
+        24484, 23433, 41694, 19270, 48936, 14167, 39357, 34073, 38637, 12018,
+         1490,  8165,  8924, 29054, 21449, 14317, 48378, 35689, 20518, 27250,
+        14667, 24126, 20114, 43358, 43262, 28870, 21076,  8956, 14483, 20225,
+        34221, 29905, 27529, 40688, 27353, 46958, 23080, 21695, 26865, 25754,
+        21360, 46159,  6501, 35499, 48842,  9020,  2593, 15945])
+---cod---
+Files already downloaded and verified
+Files already downloaded and verified
+CIFAR10
+RANDOM SEED 4666
+CyclicOutputDependecy
+Round 0
+testing accuracy 0.493
+
+
+Round 1
+(49000,)
+testing accuracy 0.4962
+
+
+Round 2
+(48873,)
+testing accuracy 0.5191
+
+
+Round 3
+(48749,)
+testing accuracy 0.5403
+
+
+Round 4
+(48626,)
+Files already downloaded and verified
+Files already downloaded and verified
+CIFAR10
+RANDOM SEED 4666
+CyclicOutputDependecy
+Round 0
+testing accuracy 0.472
+
+
+Round 1
+(49000,)
+testing accuracy 0.4585
+
+
+Round 2
+(48875,)
+testing accuracy 0.4798
+
+
+Round 3
+(48751,)
+testing accuracy 0.5163
+
+
+Round 4
+(48631,)
+testing accuracy 0.4861
+
+
+Round 5
+(48504,)
+testing accuracy 0.5539
+
+
+Round 6
+(48380,)
+testing accuracy 0.5668
+
+
+Round 7
+(48255,)
+testing accuracy 0.5369
+
+
+SEED 4666
+CyclicOutputDependecy
+[0.472  0.4585 0.4798 0.5163 0.4861 0.5539 0.5668 0.5369]
+Files already downloaded and verified
+Files already downloaded and verified
+CIFAR10
+RANDOM SEED 4666
+CyclicOutputDependecy
+Round 0
+testing accuracy 0.4757
+
+
+Round 1
+(49000,)
+testing accuracy 0.4886
+
+
+Round 2
+(48875,)
+testing accuracy 0.5145
+
+
+Round 3
+(48753,)
+testing accuracy 0.5266
+
+
+Round 4
+(48628,)
+testing accuracy 0.5294
+
+
+Round 5
+(48505,)
+testing accuracy 0.5693
+
+
+Round 6
+(48381,)
+testing accuracy 0.5649
+
+
+Round 7
+(48259,)
+testing accuracy 0.5337
+
+
+SEED 4666
+CyclicOutputDependecy
+[0.4757 0.4886 0.5145 0.5266 0.5294 0.5693 0.5649 0.5337]
+Files already downloaded and verified
+Files already downloaded and verified
+CIFAR10
+RANDOM SEED 4666
+CyclicOutputDependecy
+Round 0
+testing accuracy 0.4112
+
+
+Round 1
+(49000,)
+testing accuracy 0.4818
+
+
+Round 2
+(48876,)
+testing accuracy 0.4974
+
+
+Round 3
+(48750,)
+testing accuracy 0.5464
+
+
+Round 4
+(48622,)
+testing accuracy 0.5427
+
+
+Round 5
+(48498,)
+testing accuracy 0.5594
+
+
+Round 6
+(48376,)
+testing accuracy 0.5735
+
+
+Round 7
+(48251,)
+testing accuracy 0.5605
+
+
+SEED 4666
+CyclicOutputDependecy
+[0.4112 0.4818 0.4974 0.5464 0.5427 0.5594 0.5735 0.5605]
+Files already downloaded and verified
+Files already downloaded and verified
+detached
+Files already downloaded and verified
+Files already downloaded and verified
+CIFAR10
+RANDOM SEED 4666
+CyclicOutputDependecy
+Round 0
+testing accuracy 0.4841
+
+
+Round 1
+(49000,)
+testing accuracy 0.4651
+
+
+Round 2
+(48875,)
+testing accuracy 0.4952
+
+
+Round 3
+(48751,)
+testing accuracy 0.5065
+
+
+Round 4
+(48626,)
+testing accuracy 0.5379
+
+
+Round 5
+(48500,)
+testing accuracy 0.5488
+
+
+Round 6
+(48375,)
+testing accuracy 0.5764
+
+
+Round 7
+(48252,)
+testing accuracy 0.5325
+
+
+SEED 4666
+CyclicOutputDependecy
+[0.4841 0.4651 0.4952 0.5065 0.5379 0.5488 0.5764 0.5325]
+Files already downloaded and verified
+Files already downloaded and verified
+CIFAR10
+RANDOM SEED 4666
+CyclicOutputDependecy
+Round 0
+testing accuracy 0.4934
+
+
+Round 1
+(49000,)
+testing accuracy 0.4993
+
+
+Round 2
+(48876,)
+testing accuracy 0.4838
+
+
+Round 3
+(48754,)
+testing accuracy 0.56
+
+
+Round 4
+(48629,)
+testing accuracy 0.5526
+
+
+Round 5
+(48505,)
+testing accuracy 0.552
+
+
+Round 6
+(48377,)
+testing accuracy 0.553
+
+
+Round 7
+(48253,)
+testing accuracy 0.5632
+
+
+SEED 4666
+CyclicOutputDependecy
+[0.4934 0.4993 0.4838 0.56   0.5526 0.552  0.553  0.5632]
+Files already downloaded and verified
+Files already downloaded and verified
+CIFAR10
+RANDOM SEED 4666
+CyclicOutputDependecy
+Round 0
+testing accuracy 0.4117
+
+
+Round 1
+(49000,)
+testing accuracy 0.5119
+
+
+Round 2
+(48877,)
+testing accuracy 0.4636
+
+
+Round 3
+(48753,)
+testing accuracy 0.5343
+
+
+Round 4
+(48627,)
+testing accuracy 0.5544
+
+
+Round 5
+(48502,)
+testing accuracy 0.5504
+
+
+Round 6
+(48377,)
+testing accuracy 0.5676
+
+
+Round 7
+(48252,)
+testing accuracy 0.5809
+
+
+SEED 4666
+CyclicOutputDependecy
+[0.4117 0.5119 0.4636 0.5343 0.5544 0.5504 0.5676 0.5809]
+0: 0.452
+1: 0.464
+2: 0.457
+mean AUBC(acc): 0.4577. std dev AUBC(acc): 0.0049
+mean time: 436.6667. std dev time: 3.2998
+Files already downloaded and verified
+Files already downloaded and verified
+CIFAR10
+RANDOM SEED 4666
+CyclicOutputDependecy
+Round 0
+testing accuracy 0.4742
+
+
+Round 1
+(49000,)
+testing accuracy 0.462
+
+
+Round 2
+(48873,)
+testing accuracy 0.484
+
+
+Round 3
+(48746,)

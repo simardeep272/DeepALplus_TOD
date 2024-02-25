@@ -1,0 +1,13 @@
+dataset: CIFAR10
+AL strategy: COD
+number of labeled pool: 1000
+number of unlabeled pool: 49000
+number of testing pool: 10000
+batch size: 128
+quota: 896
+time of repeat experiments: 3
+0: 0.452
+1: 0.464
+2: 0.457
+mean acc: 0.4577. std dev acc: 0.0049
+mean time: 436.6667. std dev acc: 3.2998

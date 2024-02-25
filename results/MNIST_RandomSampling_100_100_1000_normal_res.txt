@@ -1,0 +1,19 @@
+dataset: MNIST
+AL strategy: RandomSampling
+number of labeled pool: 100
+number of unlabeled pool: 59900
+number of testing pool: 10000
+batch size: 100
+quota: 1000
+time of repeat experiments: 3
+Size of training set is 100, accuracy is 0.4336.
+Size of training set is 200, accuracy is 0.4542.
+Size of training set is 300, accuracy is 0.7959.
+Size of training set is 400, accuracy is 0.7217.
+Size of training set is 500, accuracy is 0.6389.
+Size of training set is 600, accuracy is 0.9062.
+Size of training set is 700, accuracy is 0.9228.
+Size of training set is 800, accuracy is 0.9063.
+Size of training set is 900, accuracy is 0.7796.
+Size of training set is 1000, accuracy is 0.9297.
+Size of training set is 1100, accuracy is 0.932.
