@@ -18,6 +18,8 @@ import arguments
 from parameters import *
 from utils import *
 
+
+
 # parameters
 args_input = arguments.get_args()
 NUM_QUERY = args_input.batch
@@ -34,8 +36,10 @@ os.environ["CUDA_VISIBLE_DEVICES"] = str(args_input.gpu)
 # fix random seed
 np.random.seed(SEED)
 torch.manual_seed(SEED)
-torch.backends.cudnn.enabled  = True
-torch.backends.cudnn.benchmark= True
+torch.backends.cudnn.enabled=True
+torch.backends.cudnn.benchmark=False
+torch.backends.cudnn.deterministic=True
+
 
 # device
 use_cuda = torch.cuda.is_available()
@@ -106,12 +110,16 @@ while (iteration > 0):
 		# query
 		if 'CEALSampling' in args_input.ALstrategy:
 			q_idxs, new_data = strategy.query(NUM_QUERY, rd, option = args_input.ALstrategy[13:])
+		elif args_input.ALstrategy == 'COD':
+			q_idxs = strategy.query(NUM_QUERY, rd)
 		else:
 			q_idxs = strategy.query(NUM_QUERY)
 	
 		# update
 		strategy.update(q_idxs)
 
+		if args_input.ALstrategy=='COD':
+			net.load_cod_weights(strategy.get_model().state_dict())    # Updating COD model with backbone weig
 		#train
 		if 'CEALSampling' in args_input.ALstrategy:
 			strategy.train(new_data)
@@ -141,8 +149,8 @@ while (iteration > 0):
 	acq_time.append(round(float((end-start).seconds),3))
 	torch.save(strategy.get_model().state_dict(), model_path)
 
-	if args_input.ALstrategy=='COD':
-		net.load_cod_weights(strategy.get_model().state_dict())    # Updating COD model with backbone weights
+	# if args_input.ALstrategy=='COD':
+	# 	net.load_cod_weights(strategy.get_model().state_dict())    # Updating COD model with backbone weights
 	
 # cal mean & standard deviation
 acc_m = []

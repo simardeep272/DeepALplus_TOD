@@ -64,9 +64,7 @@ class Net_tod:
         self.cod_model.eval()
 		
         uncertainty = torch.tensor([]).to(self.device)
-        unlabeled_data_loader = DataLoader(unlabeled_data, shuffle=False, **self.params['loader_te_args'])
-
-		
+        unlabeled_data_loader = DataLoader(unlabeled_data, shuffle=False, **self.params['loader_tr_args'])
         with torch.no_grad():
             for inputs, labels, idxs in unlabeled_data_loader:
                 inputs = inputs.to(self.device)
